@@ -1,6 +1,6 @@
 password = "a123456"
 x = 3
-while 0<x<=3 :
+while 0<x<=3 : #可以改成x>0，反正起始是3
     login = input("請輸入密碼:")
     if password != login:
         print("密碼錯誤，您還可以嘗試", x-1 ,"次機會")
